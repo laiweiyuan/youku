@@ -1,0 +1,65 @@
+{
+  "id": "2919307",
+  "name": "sq",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "363319",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "1280634",
+      "name": "Love",
+      "font_class": "56aixin",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "2681719",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "7744142",
+      "name": "推荐有奖",
+      "font_class": "tuijianyoujiang",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "17057878",
+      "name": "省略",
+      "font_class": "shenglve",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "17972738",
+      "name": "王冠",
+      "font_class": "wangguan",
+      "unicode": "e725",
+      "unicode_decimal": 59173
+    },
+    {
+      "icon_id": "18170133",
+      "name": "铃声,铃铛",
+      "font_class": "bell",
+      "unicode": "e96d",
+      "unicode_decimal": 59757
+    },
+    {
+      "icon_id": "18176380",
+      "name": "井号",
+      "font_class": "number-sign-full",
+      "unicode": "ea7b",
+      "unicode_decimal": 60027
+    }
+  ]
+}

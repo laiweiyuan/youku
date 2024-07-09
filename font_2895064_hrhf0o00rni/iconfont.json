@@ -1,0 +1,23 @@
+{
+  "id": "2895064",
+  "name": "2",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "22027929",
+      "name": "naruto",
+      "font_class": "naruto",
+      "unicode": "e768",
+      "unicode_decimal": 59240
+    },
+    {
+      "icon_id": "25098896",
+      "name": "naruto [#119]",
+      "font_class": "a-naruto119",
+      "unicode": "e945",
+      "unicode_decimal": 59717
+    }
+  ]
+}

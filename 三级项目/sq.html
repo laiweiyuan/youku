@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!--这一行 重要必加 -->
+    <title>SQ赖炜元19001010615</title>
+    <script src="./yangshi/fonts/iconfont.js"></script>
+    <script src="./yangshi/fontssq/iconfont.js"></script>
+    <script src="./iconfont.js"></script>
+    <link
+    rel="stylesheet"
+    href="./yangshi/css/swiper-bundle.min.css"
+  />
+</head>
+
+<style>
+        ul,
+    p,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    .bnav {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #fff;
+      z-index: 9;
+      display: flex;
+    }
+
+    .bnav>li {
+      width: 20%;
+      text-align: center;
+    }
+
+    .bnav svg {
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      line-height: 50px;
+
+    }
+
+    .banv p {
+      font-size: 14px;
+      line-height: 28px;
+    }
+
+    .bnav a {
+      color: rgb(0, 0, 0);
+
+    }
+
+    body {
+      margin-bottom: 80px;
+    }
+    .icon {
+        width: 1em;
+        height: 1em;
+        vertical-align: -0.15em;
+        fill: currentColor;
+        overflow: hidden;
+    }
+
+    .tt svg {
+        font-size: 25px;
+        color: rgb(0, 0, 0);
+        line-height: 50px;
+    }
+
+    .tab {
+        width: 100%;
+
+    }
+
+    .tt {
+        display: flex;
+
+        position: relative;
+    }
+
+    .tt>span {
+        width: 34%;
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .tt>.cur {
+        font-weight: bold;
+        font-size: 20px;
+        background-color: #fff;
+
+    }
+
+    .tc {
+
+
+        font-size: 10px;
+        text-align: center;
+
+        display: none;
+    }
+
+    .show {
+        display: block;
+    }
+
+    .hd {
+        position: absolute;
+        right: 0;
+        top: -5px;
+    }
+
+    .tt .hd svg {
+        font-size: 13px;
+    }
+
+    .zwdt {
+        margin-top: 32px;
+        width: 100%;
+        height: 40%;
+
+        background: linear-gradient(45deg, #fb3 25%, #58a 0, #58a 50%, #fb3 0, #fb3 75%, #58a 0);
+        background-size: 30px 30px;
+    }
+
+    h1 {
+        text-align: left;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .list img {
+        border-radius: 50%;
+        cursor: pointer;
+
+        font-size: 30px;
+
+        width: 60px;
+        height: 60px;
+    }
+
+    .list {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: 8px;
+    }
+
+    .list li {
+        text-align: center;
+        margin: 1%;
+        width: 30%;
+
+        border: 1px solid rgb(160, 160, 160);
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .list div {
+        margin-top: 5px;
+    }
+
+    .list p {
+
+        overflow: hidden;
+    }
+
+    .jr {}
+
+    .list button {
+        color: rgb(48, 241, 214);
+        border: 1px solid rgb(48, 241, 214);
+        background-color: #fff;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .list p1 {
+        font-size: 4px;
+        color: rgb(124, 124, 124);
+    }
+
+    .yjjr button {
+        width: 30%;
+        background-color: rgb(48, 241, 214);
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .yjjr p {
+        color: #000;
+    }
+
+    .atab {
+
+        margin: 20px;
+    }
+
+    .att {
+        display: flex;
+
+    }
+
+    .att>span {
+        width: 30%;
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .att>.cur {
+        border: 2px solid rgb(255, 255, 255);
+        font-size: 20px;
+        font-weight: bold;
+
+        margin-bottom: -1px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+
+    }
+
+    .atc {
+
+        height: 200px;
+
+        text-align: center;
+
+        display: none;
+    }
+
+    .show {
+        display: block;
+    }
+
+    .atc p1 {
+        font-size: 25px;
+
+    }
+
+    .zlist {
+        margin: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+
+    }
+
+    .zlist li {
+        display: flex;
+        width: 100%;
+        margin-right: 20px;
+        margin-bottom: 8px;
+    }
+
+    .zlist .wz {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        margin-left: 18px;
+
+
+
+    }
+
+    .wz h1 {
+        overflow: hidden;
+    }
+
+    .wz h2 {
+        line-height: 20px;
+        font-size: 10px;
+        color: #ddd;
+        font-weight: lighter;
+        overflow: hidden;
+    }
+
+    .wz .zlist div {
+
+        flex-wrap: 1;
+    }
+
+
+
+    .jr p3 {}
+
+
+    li img {
+        margin-left: 5px;
+    }
+
+    .zlist h1 {
+        font-size: 16px;
+        width: 100px;
+        text-align: left;
+        overflow: hidden;
+        font-weight: inherit;
+
+
+    }
+
+    .zlist p {
+        height: 10px;
+        font-size: 10px;
+        color: #333;
+        line-height: px;
+        text-align: left;
+        margin-top: 5px;
+
+    }
+
+    .zlist p1 {
+        font-size: 14px;
+        color: #333;
+        margin-left: 10px;
+        text-align: left;
+
+
+    }
+
+
+
+
+
+    .zlist .tx img {
+        border-radius: 50%;
+        cursor: pointer;
+
+        font-size: 30px;
+
+        width: 60px;
+        height: 60px;
+    }
+
+    .time {
+        position: absolute;
+        right: 15px;
+    }
+
+    .time button {
+        color: rgb(48, 241, 214);
+        border: 1px solid rgb(48, 241, 214);
+        background-color: #fff;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .pt {
+        margin-top: 5px;
+        display: flex;
+        width: 100%;
+    }
+
+    .pt img {
+        width: 30%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        margin: 0.5%;
+
+    }
+
+    .quanzi p1 {
+        font-size: 15px;
+        margin-left: 10px;
+
+
+    }
+    .title a{
+           text-decoration: none;
+           color: rgba(113, 18, 177, 0.842);
+       }
+    h2{
+        padding: 0;
+        margin: 0;
+    }
+    .title{
+     
+        overflow: auto;
+        line-height: 32px;
+    
+    }
+    .title a{
+        float: right;
+        font-size: 12px;
+        padding-right: 20px;
+    }
+    .title h2{
+        float: left;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    
+ 
+    .kght li {
+        text-align: center;
+     margin: 2%;
+        width:800%;
+
+  
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        display: block;
+        box-shadow:5px 5px 10px gray;
+    }
+
+    .clist div {
+        margin-top: 5px;
+    }
+
+    .clist p {
+
+        overflow: hidden;
+    }
+.qx{
+    font-size: 20px;
+    width: 50%;
+    background-color: #fb3;
+}
+.xg{
+    font-size: 20px;
+    width: 50%;
+    background-color: aquamarine;
+}
+.lll{
+    float: right;
+    text-align: center;
+    color: rgb(160, 160, 160);
+
+    font-size: 10px;
+    font-weight: lighter;
+}
+.kght .tx{
+    display: flex;
+}
+
+
+
+    .rmkq {
+      display: flex;
+      overflow-x: auto;
+      width: 100%;
+    }
+
+    .rmkq>li {
+      width: 15%;
+      margin-right: 1px;
+      margin: 8px;
+
+
+    }
+
+    .rmkq img {
+      width: 240px;
+      height: 120px;
+
+      border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-radius: 50%;
+        cursor: pointer;
+
+        font-size: 30px;
+
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .rmkq p {
+      font-size: 3px;
+  
+      text-align: center;
+
+      font-weight: bold;
+    }
+    .rmkq p1{
+    font-size: 4px;
+    color: rgb(124, 124, 124);
+ 
+}
+
+    .kght {
+      display: flex;
+      overflow-x: auto;
+      width: 100%;
+    }
+
+    .kght>li {
+      width: 40%;
+      margin-right: 1px;
+      margin: 8px;
+
+
+    }
+
+    
+
+    .kght p {
+      font-size: 3px;
+  width: 40%;
+      text-align: center;
+      height: 10px;
+      
+    }
+    .kght h1{
+        font-size: 10px;
+    }
+.qys p1{
+    text-align: left;
+}
+
+</style>
+
+<body>
+    <div class="tab">
+        <div class="tt">
+            <span class="cur">关注</span>
+            <span>广场</span>
+            <span>聊港剧</span>
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-bell"></use>
+            </svg>
+            <div class="hd"><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-shenglve
+        "></use>
+                </svg></div>
+        </div>
+
+        <div class="tc show">
+            <div class="zwdt">
+                <p1>暂无动态</p1></br>
+                <p2>关注创作者后，TA的动态都在这里哦~</p2>
+            </div>
+
+            <h1>热门圈子</h1>
+            <ul class="list">
+                <li>
+                    <div class="tx">
+                        <a href="#"><img src="./yangshi/imag/头像/20210701_10382264_avatar.png.jpg"></a>
+                    </div>
+
+                    <p>帅哥鉴赏小...</p>
+                    <p1>最近访问过</p1>
+                    <div class=" jr">
+                        <button >+加入</button>
+                    </div>
+                </li>
+
+            </ul>
+          
+            <div class="yjjr"> <button >一键加入</button></div>
+            <div class="atab">
+                <div class="att">
+                    <span class="cur">圈子</span>
+                    <span>速看</span>
+                    <span>开箱</span>
+                    <span>影剧综</span>
+                    <span>少儿</span>
+                    <span>娱乐</span>
+                </div>
+                <div class="atc show">
+
+                    <ul class="zlist">
+                        <li>
+                            <div class="tx">
+                                <a href="#"><img src="./yangshi/imag/头像/20210701_10382264_avatar.png.jpg"></a>
+                            </div>
+                            <div class="wz">
+                                <h1>
+                                    百事可元
+                                    <span class="time">
+                                        <div class=" jr">
+                                            <button>+加入</button>
+                                        </div>
+                                    </span>
+
+                                </h1>
+                                <p>8.8万人▪2.2万个帖子</p>
+
+                            </div>
+                        </li>
+                        <div class="quanzi ">
+                            <p1>世间熙熙攘攘，适合独来独往</p1>
+
+                        </div>
+                        <div class="pt"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"></div>
+                        <li>
+                            <div class="tx">
+                                <a href="#"><img src="./yangshi/imag/头像/20210701_10382264_avatar.png.jpg"></a>
+                            </div>
+                            <div class="wz">
+                                <h1>
+                                    百事可元
+                                    <span class="time">
+                                        <div class=" jr">
+                                            <button>+加入</button>
+                                        </div>
+                                    </span>
+
+                                </h1>
+                                <p>8.8万人▪2.2万个帖子</p>
+
+                            </div>
+                        </li>
+                        <div class="quanzi ">
+                            <p1>世间熙熙攘攘，适合独来独往</p1>
+
+                        </div>
+                        <div class="pt"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"></div>
+                        <li>
+                            <div class="tx">
+                                <a href="#"><img src="./yangshi/imag/头像/20210701_10382264_avatar.png.jpg"></a>
+                            </div>
+                            <div class="wz">
+                                <h1>
+                                    百事可元
+                                    <span class="time">
+                                        <div class=" jr">
+                                            <button>+加入</button>
+                                        </div>
+                                    </span>
+
+                                </h1>
+                                <p>8.8万人▪2.2万个帖子</p>
+
+                            </div>
+                        </li>
+                        <div class="quanzi ">
+                            <p1>世间熙熙攘攘，适合独来独往</p1>
+
+                        </div>
+                        <div class="pt"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"></div>
+                        <li>
+                            <div class="tx">
+                                <a href="#"><img src="./yangshi/imag/头像/20210701_10382264_avatar.png.jpg"></a>
+                            </div>
+                            <div class="wz">
+                                <h1>
+                                    百事可元
+                                    <span class="time">
+                                        <div class=" jr">
+                                            <button>+加入</button>
+                                        </div>
+                                    </span>
+
+                                </h1>
+                                <p>8.8万人▪2.2万个帖子</p>
+
+                            </div>
+                        </li>
+                        <div class="quanzi ">
+                            <p1>世间熙熙攘攘，适合独来独往</p1>
+
+                        </div>
+                        <div class="pt"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"></div>
+                        <li>
+                            <div class="tx">
+                                <a href="#"><img src="./yangshi/imag/头像/20210701_10382264_avatar.png.jpg"></a>
+                            </div>
+                            <div class="wz">
+                                <h1>
+                                    百事可元
+                                    <span class="time">
+                                        <div class=" jr">
+                                            <button>+加入</button>
+                                        </div>
+                                    </span>
+
+                                </h1>
+                                <p>8.8万人▪2.2万个帖子</p>
+
+                            </div>
+                        </li>
+                        <div class="quanzi ">
+                            <p1>世间熙熙攘攘，适合独来独往</p1>
+
+                        </div>
+                        <div class="pt"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"></div>
+
+                    </ul>
+
+                </div>
+                <div class="atc">
+                    <ul class="zlist">
+                        <li>
+                            <div class="tx">
+                                <a href="#"><img src="./yangshi/imag/头像/20210701_10382264_avatar.png.jpg"></a>
+                            </div>
+                            <div class="wz">
+                                <h1>
+                                    百事可元
+                                    <span class="time">
+                                        <div class=" jr">
+                                            <button>+加入</button>
+                                        </div>
+                                    </span>
+
+                                </h1>
+                                <p>8.8万人▪2.2万个帖子</p>
+
+                            </div>
+                        </li>
+                        <div class="quanzi ">
+                            <p1>世间熙熙攘攘，适合独来独往</p1>
+
+                        </div>
+                        <div class="pt"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"></div>
+                        <li>
+                            <div class="tx">
+                                <a href="#"><img src="./yangshi/imag/头像/20210701_10382264_avatar.png.jpg"></a>
+                            </div>
+                            <div class="wz">
+                                <h1>
+                                    百事可元
+                                    <span class="time">
+                                        <div class=" jr">
+                                            <button>+加入</button>
+                                        </div>
+                                    </span>
+
+                                </h1>
+                                <p>8.8万人▪2.2万个帖子</p>
+
+                            </div>
+                        </li>
+                        <div class="quanzi ">
+                            <p1>世间熙熙攘攘，适合独来独往</p1>
+
+                        </div>
+                        <div class="pt"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"></div>
+                        <li>
+                            <div class="tx">
+                                <a href="#"><img src="./yangshi/imag/头像/20210701_10382264_avatar.png.jpg"></a>
+                            </div>
+                            <div class="wz">
+                                <h1>
+                                    百事可元
+                                    <span class="time">
+                                        <div class=" jr">
+                                            <button>+加入</button>
+                                        </div>
+                                    </span>
+
+                                </h1>
+                                <p>8.8万人▪2.2万个帖子</p>
+
+                            </div>
+                        </li>
+                        <div class="quanzi ">
+                            <p1>世间熙熙攘攘，适合独来独往</p1>
+
+                        </div>
+                        <div class="pt"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"></div>
+                        <li>
+                            <div class="tx">
+                                <a href="#"><img src="./yangshi/imag/头像/20210701_10382264_avatar.png.jpg"></a>
+                            </div>
+                            <div class="wz">
+                                <h1>
+                                    百事可元
+                                    <span class="time">
+                                        <div class=" jr">
+                                            <button>+加入</button>
+                                        </div>
+                                    </span>
+
+                                </h1>
+                                <p>8.8万人▪2.2万个帖子</p>
+
+                            </div>
+                        </li>
+                        <div class="quanzi ">
+                            <p1>世间熙熙攘攘，适合独来独往</p1>
+
+                        </div>
+                        <div class="pt"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"></div>
+                        <li>
+                            <div class="tx">
+                                <a href="#"><img src="./yangshi/imag/头像/20210701_10382264_avatar.png.jpg"></a>
+                            </div>
+                            <div class="wz">
+                                <h1>
+                                    百事可元
+                                    <span class="time">
+                                        <div class=" jr">
+                                            <button>+加入</button>
+                                        </div>
+                                    </span>
+
+                                </h1>
+                                <p>8.8万人▪2.2万个帖子</p>
+
+                            </div>
+                        </li>
+                        <div class="quanzi ">
+                            <p1>世间熙熙攘攘，适合独来独往</p1>
+
+                        </div>
+                        <div class="pt"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"></div>
+
+                    </ul>
+
+                </div>
+                <div class="atc">
+                  
+                </div>
+                <div class="atc">
+                   
+
+                </div>
+                <div class="atc">
+                  
+                </div>
+                <div class="atc">
+        
+
+                </div>
+            </div>
+        </div>
+
+        <div class="tc">
+            <div class="title">
+                <a href="#"><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-wangguan"></use>
+                  </svg>查看榜单》</a>
+         <h2>酷梗话题</h2>
+             </div> 
+         
+            
+                <!-- <h1><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-number-sign-full"></use>
+                  </svg>emo是情绪还是性格</h1>
+                  <div class="tx">
+                        <a href="#"><img src="./yangshi/imag/头像/20210701_10382264_avatar.png.jpg"></a><span class="qx">情绪</span>
+                        <span class="xg">性格</span>
+                        <a href="#"><img src="./yangshi/imag/头像/20210701_10382264_avatar.png.jpg"></a>
+             </div>
+                
+                </li>
+                <li>
+                 <h1><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-number-sign-full"></use>
+                  </svg>追光吧我画你猜<span class="lll">7.4万</span></h1>  
+                  <h1><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-number-sign-full"></use>
+                  </svg>连我妈都在用吴京表情包<span class="lll">7.4万</span></h1>
+                  <h1><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-number-sign-full"></use>
+                  </svg>有起床气的后果<span class="lll">7.4万</span>
+                       </h1>
+                
+                </li>
+                <li>
+                    <h1><svg class="icon" aria-hidden="true">
+                       <use xlink:href="#icon-number-sign-full"></use>
+                     </svg>追光吧我画你猜<span class="lll">7.4万</span></h1>  
+                     <h1><svg class="icon" aria-hidden="true">
+                       <use xlink:href="#icon-number-sign-full"></use>
+                     </svg>连我妈都在用吴京表情包<span class="lll">7.4万</span></h1>
+                     <h1><svg class="icon" aria-hidden="true">
+                       <use xlink:href="#icon-number-sign-full"></use>
+                     </svg>有起床气的后果<span class="lll">7.4万</span>
+                          </h1>
+                   
+                   </li>
+                   <li>
+                    <h1><svg class="icon" aria-hidden="true">
+                       <use xlink:href="#icon-number-sign-full"></use>
+                     </svg>追光吧我画你猜<span class="lll">7.4万</span></h1>  
+                     <h1><svg class="icon" aria-hidden="true">
+                       <use xlink:href="#icon-number-sign-full"></use>
+                     </svg>连我妈都在用吴京表情包<span class="lll">7.4万</span></h1>
+                     <h1><svg class="icon" aria-hidden="true">
+                       <use xlink:href="#icon-number-sign-full"></use>
+                     </svg>有起床气的后果<span class="lll">7.4万</span>
+                          </h1>
+                   
+                   </li> -->
+                   <!-- <li>
+                   <h1><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-number-sign-full"></use>
+                  </svg>追光吧我画你猜<span class="lll">7.4万</span></h1>  
+                  <h1><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-number-sign-full"></use>
+                  </svg>连我妈都在用吴京表情包<span class="lll">7.4万</span></h1>
+                  <h1><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-number-sign-full"></use>
+                  </svg>有起床气的后果<span class="lll">7.4万</span>
+                       </h1>
+                </li>
+                <li>
+                    <h1><svg class="icon" aria-hidden="true">
+                     <use xlink:href="#icon-number-sign-full"></use>
+                   </svg>追光吧我画你猜<span class="lll">7.4万</span></h1>  
+                   <h1><svg class="icon" aria-hidden="true">
+                     <use xlink:href="#icon-number-sign-full"></use>
+                   </svg>连我妈都在用吴京表情包<span class="lll">7.4万</span></h1>
+                   <h1><svg class="icon" aria-hidden="true">
+                     <use xlink:href="#icon-number-sign-full"></use>
+                   </svg>有起床气的后果<span class="lll">7.4万</span>
+                        </h1>
+                 </li>
+                 <li>
+                    <h1><svg class="icon" aria-hidden="true">
+                     <use xlink:href="#icon-number-sign-full"></use>
+                   </svg>追光吧我画你猜<span class="lll">7.4万</span></h1>  
+                   <h1><svg class="icon" aria-hidden="true">
+                     <use xlink:href="#icon-number-sign-full"></use>
+                   </svg>连我妈都在用吴京表情包<span class="lll">7.4万</span></h1>
+                   <h1><svg class="icon" aria-hidden="true">
+                     <use xlink:href="#icon-number-sign-full"></use>
+                   </svg>有起床气的后果<span class="lll">7.4万</span>
+                        </h1>
+                 </li> -->
+   <!-- Swiper -->
+   <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><h1><svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-number-sign-full"></use>
+      </svg>追光吧我画你猜<span class="lll">7.4万</span></h1>  
+      <h1><svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-number-sign-full"></use>
+      </svg>连我妈都在用吴京表情包<span class="lll">7.4万</span></h1>
+      <h1><svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-number-sign-full"></use>
+      </svg>有起床气的后果<span class="lll">7.4万</span>
+           </h1></div>
+      <div class="swiper-slide"> <h1><svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-number-sign-full"></use>
+      </svg>追光吧我画你猜<span class="lll">7.4万</span></h1>  
+      <h1><svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-number-sign-full"></use>
+      </svg>连我妈都在用吴京表情包<span class="lll">7.4万</span></h1>
+      <h1><svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-number-sign-full"></use>
+      </svg>有起床气的后果<span class="lll">7.4万</span>
+           </h1>
+    </div>
+      <div class="swiper-slide"> <h1><svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-number-sign-full"></use>
+      </svg>追光吧我画你猜<span class="lll">7.4万</span></h1>  
+      <h1><svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-number-sign-full"></use>
+      </svg>连我妈都在用吴京表情包<span class="lll">7.4万</span></h1>
+      <h1><svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-number-sign-full"></use>
+      </svg>有起床气的后果<span class="lll">7.4万</span>
+           </h1>
+    </div>
+      <div class="swiper-slide"> <h1><svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-number-sign-full"></use>
+      </svg>追光吧我画你猜<span class="lll">7.4万</span></h1>  
+      <h1><svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-number-sign-full"></use>
+      </svg>连我妈都在用吴京表情包<span class="lll">7.4万</span></h1>
+      <h1><svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-number-sign-full"></use>
+      </svg>有起床气的后果<span class="lll">7.4万</span>
+           </h1>
+    </div>
+      <div class="swiper-slide"> <h1><svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-number-sign-full"></use>
+      </svg>追光吧我画你猜<span class="lll">7.4万</span></h1>  
+      <h1><svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-number-sign-full"></use>
+      </svg>连我妈都在用吴京表情包<span class="lll">7.4万</span></h1>
+      <h1><svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-number-sign-full"></use>
+      </svg>有起床气的后果<span class="lll">7.4万</span>
+           </h1>
+    </div>
+      <div class="swiper-slide"><h1>更多！</h1></div>
+ 
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="./yangshi/js/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+
+      },
+    });
+  </script>
+       
+            <div class="title">
+                <a href="#"><svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-wangguan"></use>
+                  </svg>更多圈子》</a>
+         <h2>热门酷圈</h2>
+             </div> 
+            <ul class="rmkq">
+                <li>
+                  <a href="#"><img src="./yangshi/imag/头像sq/96838220948_avatar.png"></a>
+                  <p>L</p>
+                  <p1>最近访问过</p1>
+                  
+        
+                </li>
+                <li>
+                    <a href="#"><img src="./yangshi/imag/头像sq/8ace9c21fe0fd791f2feee4bcf194d8e.png"></a>
+                    <p>L</p>
+                    <p1>最近访问过</p1>
+                    
+          
+                  </li>
+                  <li>
+                    <a href="#"><img src="./yangshi/imag/头像sq/60733371679_avatar.png"></a>
+                    <p>L</p>
+                    <p1>最近访问过</p1>
+                    
+          
+                  </li>
+              </ul>
+              <div class="title">
+             
+         <h2>圈友说</h2>
+         </div>
+         <ul class="zlist">
+             <span class="qys">
+            <li>
+                <div class="tx">
+                    <a href="#"><img src="./yangshi/imag/头像/20210701_10382264_avatar.png.jpg"></a>
+                </div>
+                <div class="wz">
+                    <h1>
+                        百事可元
+                        <span class="time">
+                            <div class=" jr">
+                                <button>+加入</button>
+                            </div>
+                     </span>
+
+                    </h1>
+                    <p>8.8万人▪2.2万个帖子</p>
+
+                </div>
+            </li>
+            <div class="quanzi ">
+                <p1>世间熙熙攘攘，适合独来独往</p1>
+
+            </div>
+            <div class="pt"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"><img src="./yangshi/imag/圈子配图/黑色.jpg"></div>
+             </span>
+         </ul>
+             </div> 
+        <div class="tc"></div>
+        <div class="tc"></div>
+    </div>
+    <ul class="bnav">
+        <li>
+          <p> <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-shouye2"></use>
+            </svg> </p>
+          <p><a href="./index.html">首页</a></p>
+        </li>
+        <li>
+          <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-xiaoxi"></use>
+            </svg>
+          <p><a href="./xiaoxi.html">消息</a></p>
+      </li>
+        <li>
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-huiyuan"></use>
+          </svg>
+          <p><a href="./huiyuan.html">会员</a></p>
+        </li>
+        <li>
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-shequ"></use>
+          </svg>
+          <p><a href="./sq.html">社区</a></p>
+        </li>
+        <li>
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-wode"></use>
+          </svg>
+          <p><a href="./grzx.html">我的</a></p>
+        </li>
+      </ul>
+    <script src="./yangshi/js/xiaoxi.js"></script>
+    <script src="./yangshi/js/index.js"></script>
+<script src="./yangshi/js/sq.js"></script>
+
+</body>
+
+</html>

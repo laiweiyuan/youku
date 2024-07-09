@@ -1,0 +1,99 @@
+*{
+	margin:30;
+	padding:30;
+}
+
+body {
+	font-family:Arial, '微软雅黑', sans-serif;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	margin:0;
+	padding:0;
+	background-image: url(../images/bj.jpg);
+	background-repeat: no-repeat;
+	background-color: #F0F0F0;
+}
+.nav{
+
+}
+.nav tr{text-align:center;}
+
+.nav tr td a {
+	color:#F0F0F0;
+	padding:9px 26px;
+	font-size:15px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.nav tr td a:hover,.nav tr td a.active{
+	background:pink;
+}
+
+.branding {
+position: relative;
+z-index: 9999;
+}
+#footer{
+	height:60px;
+	color:#F0F0F0;
+	font-weight: bold;
+	background: url("../images/border-yellow.png") repeat-x left top;
+}
+
+.t1{
+	clear: left;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	background: url("../images/hr2.png") no-repeat bottom center
+}
+.main tr td table tr td br {
+	color: #F0F0F0;
+}
+.main tr td table tr td p {
+	font-weight: bold;
+}
+.main tr td table tr td p {
+	font-weight: normal;
+}
+.main tr td table tr td .t1 table tr td p {
+	font-size: large;
+}
+.main tr td table tr td .t1 table tr td p {
+	font-size: xx-small;
+}
+.main tr td table tr td .t1 table tr td p {
+	font-size: x-small;
+}
+.main tr td table tr td .t1 table tr td p {
+	font-size: small;
+}
+.main tr td table tr td .t1 table tr td p {
+	font-size: medium;
+}
+.main tr td table tr td .t1 table tr td p {
+	font-size: large;
+}
+.main tr td table tr td .t1 table tr td p {
+	font-size: x-large;
+}
+.main tr td table tr td .t1 table tr td p {
+	font-size: xx-large;
+}
+.main tr td table tr td .t1 table tr td p {
+	font-size: larger;
+}
+.main tr td table tr td .t1 table tr td p {
+	font-size: smaller;
+}
+.main tr td table tr td .t1 table tr td p {
+	font-size: medium;
+}
+.main tr td table tr td .t1 table tr td p {
+
+}
+.main tr td table tr td table tr td p {
+	font-size: 24px;
+}
+.main tr td table tr td table tr td p {
+	font-size: 24px;
+}

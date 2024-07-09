@@ -1,0 +1,23 @@
+{
+  "id": "2987293",
+  "name": "index主页",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3082979",
+      "name": "网易云",
+      "font_class": "wangyiyun",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "6582338",
+      "name": "音乐",
+      "font_class": "yinle",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    }
+  ]
+}
